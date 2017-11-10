@@ -347,4 +347,4 @@ Object.assign(target, ...sources)
     return Array.prototype.map.call(new Uint8Array(buffer), x => ('00' + x.toString(16)).slice(-2)).join('');
   }
 ```
-...未完待续
+...未完待续...

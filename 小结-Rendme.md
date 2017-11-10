@@ -217,7 +217,7 @@ fetch依赖于promise执行异步回调
 	             console.log(data)
 	          })
 		
-		   })
+        })
 
     返回值简写为.then(res=>res.json().then(data=>{console.log(data)}))
 
